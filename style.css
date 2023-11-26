@@ -1,0 +1,139 @@
+/* gooogle font code */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+   
+        
+    }
+
+    body{
+        background-image: url(image/herobg.png);
+        background-size: cover;
+        color: var(--white);
+        transition: all 1s;
+    }
+
+    :root {
+        --primary: #804DEE;
+        --white: #FFFFFF;
+    }
+
+    /* ---------------main code----------------- */
+    .hero-section {
+      margin-top: 60px;
+      /* background-color: #FFFFFF; */
+    }
+
+
+    .text-heading {
+        font-weight: 700;
+        font-size: 3rem;
+        color: var(--white);
+    }
+
+    .span-font {
+        color: var(--primary);
+    }
+
+    .cv-btn {
+        background-color: burlywood;
+    }
+    
+    .link-style {
+        border-color: var(--primary);
+        transition: all 1s;
+        
+    }
+    .link-style:hover {
+        background-color: var(--primary);
+        color: var(--white);
+    }
+
+    .progress-width {
+        width: 200px;
+        height: 20px;
+    }
+
+    .skill-item h1 {
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .skill-icon {
+        font-size: 3rem;
+    }
+/* -----------------------Project style-------------- */
+.project__image-style {
+    position: relative;
+    width: 290px;
+    
+  }
+
+  .image {
+    display: block;
+    height: 300px;
+    width: 90%;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:black;
+    opacity: .75;
+    overflow: hidden;
+    width: 90%;
+    height: 0;
+    transition: .5s ease;
+    
+  }
+
+  .project__image-style:hover .overlay {
+    height: 100%;
+  }
+
+
+
+
+  .text {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    
+  }
+
+  .text h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .text a {
+    background-color: var(--primary);
+  }
+
+  .text a:hover {
+    background-color: var(--primary);
+  }
+
+  textarea {
+    height: 140px;
+  }
+
+  .auto-typed {   
+    color: rgb(30, 255, 0);
+  }
+
+
+   
+
+   
+    
+
